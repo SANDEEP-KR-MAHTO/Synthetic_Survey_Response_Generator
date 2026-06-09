@@ -27,7 +27,7 @@ Output is saved to `output/responses.csv`.
 ## Project Structure
 
 ```
-synthetic_survey_response_renerator/
+Synthetic_Survey_Response_Generator/
 ├── main.py               # Entry point, CLI args, CSV export
 ├── generator.py          # Core response generation loop
 ├── persona.py            # Persona archetypes and sampling logic
@@ -42,7 +42,7 @@ synthetic_survey_response_renerator/
 **1. Clone the repo and install dependencies**
 ```bash
 git clone https://github.com/SANDEEP-KR-MAHTO/Synthetic_Survey_Response_Generator.git
-cd synthetic_survey_response_generator
+cd Synthetic_Survey_Response_Generator
 pip install -r requirements.txt
 ```
 
