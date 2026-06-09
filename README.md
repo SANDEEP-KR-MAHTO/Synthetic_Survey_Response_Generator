@@ -1,4 +1,4 @@
-# Survey Sensum Chain
+# Synthetic Survey Response Generator
 
 A synthetic e-commerce survey response generator that uses persona archetypes and an LLM (via Groq) to produce realistic, coherent customer satisfaction survey data.
 
@@ -27,7 +27,7 @@ Output is saved to `output/responses.csv`.
 ## Project Structure
 
 ```
-survey_sensum_chain/
+synthetic_survey_response_renerator/
 ├── main.py               # Entry point, CLI args, CSV export
 ├── generator.py          # Core response generation loop
 ├── persona.py            # Persona archetypes and sampling logic
@@ -41,8 +41,8 @@ survey_sensum_chain/
 
 **1. Clone the repo and install dependencies**
 ```bash
-git clone <repo-url>
-cd survey_sensum_chain
+git clone https://github.com/SANDEEP-KR-MAHTO/Synthetic_Survey_Response_Generator.git
+cd synthetic_survey_response_generator
 pip install -r requirements.txt
 ```
 
